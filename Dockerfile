@@ -1,6 +1,6 @@
-FROM RepthonArabic/Repthon:slim-buster
+FROM RepthonArabic/apdelelem123:slim-buster
 
-RUN git clone https://github.com/RepthonArabic/Repthon.git /root/repthon
+RUN git clone https://github.com/apdelelem123/PPF22.git /root/apdelelem123
 
 WORKDIR /root/repthon
 
@@ -11,4 +11,4 @@ RUN pip3 install --no-cache-dir -r requirements.txt
 
 ENV PATH="/home/repthon/bin:$PATH"
 
-CMD ["python3","-m","repthon"]
+CMD ["python3","-m","apdelelem123"]
